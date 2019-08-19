@@ -1,0 +1,15 @@
+#homework4:lists _ myUniqueList is list and item is not formated to a specific type
+#a new list item must be entered as "item"
+
+list = []
+
+def add_item(item):
+    
+    if item in list:
+        list.index(item)
+        return "False"
+    else:
+        list.extend(item)
+        return "True"
+
+print (list)
